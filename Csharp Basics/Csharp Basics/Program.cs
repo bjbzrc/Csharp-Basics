@@ -62,7 +62,7 @@ namespace Csharp_Basics
             Console.WriteLine("force = {0}\n" , force);
 
             // Displaying "distance"
-            Console.WriteLine("{0} is the distance\n", distance);
+            Console.WriteLine("{0} is the distance.\n", distance);
 
             // Comparing "lost" and "expensive"
             if (lost == true && expensive == true)
