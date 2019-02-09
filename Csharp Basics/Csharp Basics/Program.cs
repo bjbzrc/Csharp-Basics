@@ -27,8 +27,22 @@ namespace Csharp_Basics
             int choice = 2;
             string name = "Karen";
 
-            Console.WriteLine("Success!");
-            Console.ReadLine();
+            // Main tasks start here with 
+            if (sample1 == sample2)
+            {
+                Console.WriteLine("The samples are equal.");
+            }
+            if (sample1 != sample2)
+            {
+                Console.WriteLine("The samples are not equal.");
+            }
+
+            if (heartRate > 40 && heartRate < 80)
+            {
+                Console.WriteLine("Heart rate is normal.");
+            }
+
+            Console.ReadKey();
         }
     }
 }
